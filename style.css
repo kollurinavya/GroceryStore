@@ -1,0 +1,207 @@
+
+
+body {font-family:Arial, Sans-Serif;
+background-color: #42bcf4;
+background-image: url('http://wallpapercave.com/wp/GUAaScC.jpg');
+}
+.clearfix:before, .clearfix:after 
+{
+	content: ""; display: table;
+ }
+.clearfix:after
+ { 
+ clear: both; 
+ }
+ h1{
+	 text-align: center;
+	 background-color: white;
+ }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+textarea{
+width: 300px; 
+border-radius: 2px;
+border: 1px solid #CCC; 
+padding: 10px;
+ color: #333; 
+font-size: 14px;
+ margin-top: 10px;	
+}
+input[type='text'], input[type='email'], input[type='password'],input[type='textarea']
+ {
+ width: 300px; 
+border-radius: 2px;
+border: 1px solid #CCC; 
+padding: 3px;
+ color: #333; 
+font-size: 14px;
+ margin-top: 10px;
+ }
+input[type='submit']{
+	padding: 10px 89px 8px; 
+	color: #fff; 
+	background-color: blue ; 
+font-size: 16px; 
+width : 300px;
+  border: 1px solid #0164a5;
+  margin-top: 10px;
+  cursor:pointer;
+  }
+  input[type='button']{
+	padding: 10px 89px 8px; 
+	color: #fff; 
+	background-color: blue ; 
+font-size: 16px; 
+width : 325px;
+  border: 1px solid #0164a5;
+  margin-top: 10px;
+  cursor:pointer;
+  }
+input[type='submit']:hover {background-color: #024978;}
+img{
+    margin-left: 325px;
+}
+/* month and year drop down menu styles */
+.ddown {
+    color: black;
+    font-size: 17px;
+    background: blue;
+    text-decoration: underline;
+          color: #fff;
+}
+/* calendar display stylings*/
+#cal_part {
+    width: 700px;
+    margin: 1px auto;
+    margin-bottom: 1px;
+	float:right;
+	margin-right: 30px;
+}
+
+#cal_part h2 {
+        background-color: black;
+        text-align: center;
+        line-height: 80px;
+        width: 710px;
+}
+
+#cal_part h2 a {
+            color: blue;
+            width: 710px;
+            float: center;
+            margin-left: 100px;
+            margin-right: 100px;
+}
+
+#cal_main {
+    width: 100%;
+    float: left;
+     background-color: blue;
+    margin-top: 1px;
+}
+
+    #cal_main ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+        #cal_main ul li {
+            float: left;
+           width: 99px;
+            border-right: 1px solid #fff;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            min-height: 0;
+            background-color: blue;
+            box-shadow: none;
+            margin: 0;
+            padding: 0;
+        }
+/*calendar dates box styling */
+#cal_low {
+    width: 100%;
+    margin-top: 2px;
+    float: left;
+    border-left: 10px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 10px solid black;
+}
+
+    #cal_low ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+        #cal_low ul li {
+            float: left;
+            width: 99px;
+            height: 80px;
+            font-weight: bold;
+            position: relative;
+            background-color: #668cff;
+            text-align: center;
+            border-top: 5px solid #ccc;
+            border-right: 1px solid #ccc;
+            
+        }
+
+            #cal_low ul li span {
+                margin-top: 7px;
+                float: left;
+                text-align: center;
+                margin-left: 7px;
+            }
+
+.grey {
+    background-color: #1a53ff !important;
+}
+/* displaying cursor as pointer when hovered over dates
+*/
+.light_sky{ background-color:#B9FFFF !important;}
+.date_cell { cursor: pointer; cursor: hand; }
+.date_cell:hover { background: #DDDDDD !important; } 
+.date_popup_wrap {
+	position: relative;
+	width: 150px;
+	height: 110px;
+	z-index: 0;
+	top: -120px;
+	left:-55px;
+	background:transparent url(box2.jpg) no-repeat top left;
+	color: #666 !important;
+}
+.events_window {
+	overflow: hidden;
+	overflow-y: hidden;
+	width: 133px;
+	height: 115px;
+	margin-top: 28px;
+	margin-left: 25px;
+}
+.event_wrap {
+	margin-bottom: 10px; padding-bottom: 10px;
+	border-bottom: solid 1px #E4E4E7;
+	font-size: 12px;
+	padding: 3px;
+}
+.date_window {
+	margin-top:20px;
+	margin-bottom: 2px;
+	padding: 5px;
+	font-size: 16px;
+	margin-left:9px;
+	margin-right:14px
+}
+.popup_event {
+	margin-bottom: 2px;
+	padding: 2px;
+	font-size: 16px;
+	width:100%;
+}
+.popup_event a {color: #000000 !important;}
+.packeg_box a {color: #F58220;float: right;}
+a:hover {color: #181919;text-decoration: bolder;}
